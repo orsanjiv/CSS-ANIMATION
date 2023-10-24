@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container{
+    width:100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+}
+
+.mid-photo{
+    width:35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: rotate360 infinite linear 20s;
+}
+
+.logo{
+    position: absolute;
+    top: 65px;
+}
+
+@keyframes rotate360{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}    
